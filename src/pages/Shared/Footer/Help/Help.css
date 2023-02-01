@@ -1,0 +1,44 @@
+.footer-help input{
+      padding: 20px 0 20px 25px;
+      height: 60px;
+      border-radius: 0;
+      background-color: var(--color3);
+      border-color: #535353;
+      max-width: 407px;
+      font-size: 14px;
+      color: #ccc;
+}
+.footer-help .form-control:focus {
+      color: #ccc !important;
+      background-color: var(--color3) !important;
+      border-color: #535353 !important;
+      outline: 0;
+      box-shadow: none !important;
+}
+.footer-help-title{
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 25px;
+      position: relative;
+      text-transform: capitalize;
+      color: #fff;
+}
+
+.footer-help-title::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      font-size: 60px;
+      width: 100%;
+      -webkit-text-stroke: 2px #fff;
+      -webkit-text-fill-color: transparent;
+      opacity: .1;
+      z-index: 0;
+}
+.footer-help .help::before{
+      content: 'Help' !important;
+}
+.footer-help .subscribe::before{
+      content: 'Subscribe' !important;
+}

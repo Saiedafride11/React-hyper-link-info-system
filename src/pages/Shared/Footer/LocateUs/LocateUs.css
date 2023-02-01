@@ -1,0 +1,21 @@
+.locate-us-section h6{
+      margin-bottom: 0px;
+      margin-left: 10px;
+}
+.locate-us-section small{
+     font-size: 12px;
+}
+.locate-us-section .details{
+      font-size: 12px;
+      color: #ccc;
+      margin: 2px 0px;
+}
+.locate-us-section p{
+      margin-bottom: 0px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+      .locate-us-section .col-lg-3{
+            flex: 0 0 auto !important;
+            width: 50% !important;
+      }
+}

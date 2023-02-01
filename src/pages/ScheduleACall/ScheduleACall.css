@@ -1,0 +1,80 @@
+.schedule-call-section h1{
+      font-size: 45px;
+      font-weight: 700;
+      text-align: center;
+      color: var(--color3);
+      margin: 50px 0px;
+      text-transform: capitalize;
+}
+.schedule-call-content{
+      width: 60%;
+      margin: 0 auto;
+      border: 1px solid var(--border-color,rgba(26,26,26,0.1));
+      border-radius: 8px;
+      box-shadow: 0 1px 8px 0 rgb(0 0 0 / 8%);
+}
+.schedule-left-side{
+      border-right: 1px solid var(--border-color,rgba(26,26,26,0.1));
+}
+.schedule-call-content .schedule-logo{
+      text-align: center;
+      padding: 50px 0px;
+      border-bottom: 1px solid var(--border-color,rgba(26,26,26,0.1));
+}
+.schedule-call-content .schedule-logo img{
+      width: 50%;
+}
+.schedule-left-side .info h6{
+      margin: 0 0 3px;
+      color: rgba(26,26,26,0.61);
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+}
+.schedule-left-side .info h1{
+      margin: 0;
+      text-align: left;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 32px;
+}
+.schedule-left-side .info .clock{
+     margin: 30px 0px;
+}
+.schedule-left-side .info .clock img{
+     margin-right: 10px;
+}
+.schedule-left-side .info .agenda p{
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+      line-height: 1.5;
+}
+.schedule-left-side .info button{
+      font-size: 14px;
+      line-height: 19px;
+      border: none;
+      padding: 30px 0px;
+      background: transparent;
+      color: var(--main-color);
+}
+.schedule-call-content .select-date-time{
+      padding-left: 20px;
+      text-align: center;
+}
+.schedule-call-content .select-date-time h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.schedule-call-content .select-date-time p{
+    margin-top:350px;
+    text-align: left;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1200px) {
+      .schedule-call-content{
+            width: 100%;
+      }
+}

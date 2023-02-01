@@ -1,0 +1,32 @@
+.call-us-now-section{
+      position: fixed;
+      top: 50%;
+      transform: translateY(-50%);
+}
+.call-us-now-section button{
+      border: none;
+      background-color: var(--main-color);
+      cursor: pointer;
+}
+.call-us-now-section .call{
+      padding: 15px;
+}
+.call-us-now{
+      width: 300px;
+      padding: 20px;
+      color: var(--color1);
+      background-color: var(--main-color);
+}
+.call-us-now a{
+      color: var(--color1);
+      text-decoration: none;
+}
+.call-us-calender{
+      text-align: center;
+      padding: 20px;
+      color: var(--color1);
+      background: linear-gradient(90deg,#403b97 0%,#393486 100%)!important; 
+}
+.call-us-calender h6{
+      margin-top: 10px;
+}

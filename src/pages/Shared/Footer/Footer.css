@@ -1,0 +1,13 @@
+.main-footer-container{
+      padding-top: 140px;
+      background-color: var(--color3);
+      margin-top: -70px;
+}
+.main-footer-container a{
+      text-decoration: none !important;
+      color: var(--color1) !important;
+}
+.main-footer-container a:hover{
+      color: var(--hover-color) !important;
+      transition: 1s;
+}

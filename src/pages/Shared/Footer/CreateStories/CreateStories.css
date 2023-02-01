@@ -1,0 +1,71 @@
+.create-stories{
+      text-align: center;
+      color: var(--color1);
+      background-color: var(--main-color);
+      position: relative;
+      border-radius: 24px;
+      padding: 45px 0;
+      overflow: hidden;
+      width: 80%;
+      margin: 0 auto;
+}
+.create-stories::before {
+      content: '';
+      position: absolute;
+      background-image: url(../../../../images/pattern-1.svg);
+      top: 0;
+      left: 0;
+      width: 97px;
+      height: 130px;
+      z-index: 0;
+}
+.create-stories::after {
+      content: '';
+      position: absolute;
+      background-image: url(../../../../images/pattern2.svg);
+      bottom: 0;
+      right: 0;
+      width: 320px;
+      height: 260px;
+      z-index: 0;
+  }
+.create-stories h5{
+      font-size: 32px;
+      margin-bottom: 15px;  
+}
+.create-stories p{
+      font-size: 18px;
+      line-height: 28px;  
+}
+
+.create-stories button{
+    font-size: 14px;
+    color: var(--color1);
+    background: var(--hover-color);
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 15px;
+    border: none;
+    border-radius: 2px;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    max-width: 170px;
+}
+.create-stories img {
+    margin-left: 15px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 992px) {
+      .create-stories{
+            width: 100%;
+            padding: 25px;
+      }
+      .create-stories h5{
+            font-size: 22px;  
+      }
+      .create-stories p{
+            font-size: 15px;
+            line-height: 25px;  
+      }
+}

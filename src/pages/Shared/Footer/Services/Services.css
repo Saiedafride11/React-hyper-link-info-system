@@ -1,0 +1,48 @@
+.footer-services-section .footer-services-title{
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 25px;
+      position: relative;
+      text-transform: capitalize;
+      color: var(--color1);
+}
+
+.footer-services-section .footer-services-title::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      font-size: 60px;
+      width: 100%;
+      -webkit-text-stroke: 2px var(--color1);
+      -webkit-text-fill-color: transparent;
+      opacity: .1;
+      z-index: 0;
+}
+.footer-services-section .about::before{
+      content: 'About' !important;
+}
+.footer-services-section .mobile::before{
+      content: 'Mobile' !important;
+}
+.footer-services-section .web::before{
+      content: 'WEB' !important;
+}
+.footer-services-section .ecommerce::before{
+      content: 'Ecommerce' !important;
+}
+.footer-services-section .ai::before{
+      content: 'AI' !important;
+}
+.footer-services-section .iot::before{
+      content: 'IoT' !important;
+}
+.footer-services-section .blockchain::before{
+      content: 'Blockchain' !important;
+}
+.footer-services-section .game::before{
+      content: 'Game' !important;
+}
+.footer-services-section .salesforce::before{
+      content: 'Salesforce' !important;
+}
